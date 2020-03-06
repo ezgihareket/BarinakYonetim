@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http;
+@{
+int? id = Context.Session.GetInt32("id");
+}
+
+<!DOCTYPE html>
 <html id="ctl00_tagHtml" xmlns="https://www.w3.org/1999/xhtml">
 
 <head id="ctl00_Head1">
@@ -43,58 +48,39 @@
 
                         <div class="container">
 
-                            <!--  
-                            <div class="header-info info-1">
-                                <p><a href="tel:+902124440444">0212 444 0 444</a></p>
-                            </div>
-                             -->
 
-                            <div class="header-row social social-theme5">
-
-                                <ul class="social-icons">
-                                    <li class="social-icons-facebook"><a href="https://www.facebook.com/facebook"
-                                            target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
-                                            title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="social-icons-instagram"><a href="http://www.instagram.com/"
-                                            target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                                    <li class="social-icons-youtube"><a href="http://www.youtube.com/" target="_blank"
-                                            title="Youtube"><i class="fa fa-youtube"></i></a></li>
-                                    <li class="social-icons-foursquare"><a href="1" target="_blank"
-                                            title="Foursquare"><i class="fa fa-foursquare"></i></a></li>
-                                </ul>
-                            </div>
+                            @if(!id.HasValue){
                             <div class="header-row membership">
                                 <div id="ctl00_Header_ctl02_UyeGiris"
                                     onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_Header_ctl02_Giris&#39;)">
+                                    <form method="POST" action="/kayitol/girisyap">
+                                        <div class="Ust_Uyelik" id="Uyelik_logo_yani">
+                                            <div class="col-md-12">
+                                                <div class="col-md-1"></div>
+                                                <div class="col-md-3 mobile-hide">
+                                                    <input name="email" type="text"
+                                                        id="ctl00_Header_ctl02_uyeKullaniciAdi" class="form-control"
+                                                        placeholder="Kullanıcı Adı" />
+                                                </div>
+                                                <div class="col-md-3 mobile-hide">
+                                                    <input name="sifre" type="password" id="ctl00_Header_ctl02_uyeSifre"
+                                                        class="form-control" autocomplete="off" placeholder="Şifre" />
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <input type="submit" value="Giriş" id="ctl00_Header_ctl02_Giris"
+                                                        class="btn btn-primary mobile-hide" />
 
-                                    <div class="Ust_Uyelik" id="Uyelik_logo_yani">
-                                        <div class="col-md-12">
-                                            <div class="col-md-1"></div>
-                                            <div class="col-md-3 mobile-hide">
-                                                <input name="ctl00$Header$ctl02$uyeKullaniciAdi" type="text"
-                                                    id="ctl00_Header_ctl02_uyeKullaniciAdi" class="form-control"
-                                                    placeholder="Kullanıcı Adı" />
-                                            </div>
-                                            <div class="col-md-3 mobile-hide">
-                                                <input name="ctl00$Header$ctl02$uyeSifre" type="password"
-                                                    id="ctl00_Header_ctl02_uyeSifre" class="form-control"
-                                                    autocomplete="off" placeholder="Şifre" />
-                                            </div>
-                                            <div class="col-md-5">
-                                                <input type="submit" name="ctl00$Header$ctl02$Giris" value="Giriş"
-                                                    id="ctl00_Header_ctl02_Giris" class="btn btn-primary mobile-hide" />
-
-                                                <a href="/members/login" class="btn btn-primary mobile-show">Giriş
-                                                    Yap</a>
-                                                <a href="/kayitol" class="btn btn-primary">Kayıt Ol</a>
-                                                <a href="/members/forgot-password" class="btn btn-primary">Şifremi
-                                                    Unuttum</a>
+                                                    <a href="/members/login" class="btn btn-primary mobile-show">Giriş
+                                                        Yap</a>
+                                                    <a href="/kayitol" class="btn btn-primary">Kayıt Ol</a>
+                                                    <a href="/members/forgot-password" class="btn btn-primary">Şifremi
+                                                        Unuttum</a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </form>
                                 </div>
-                            </div>
+                            </div>}
                         </div>
                     </div>
                     <div id="header" class="headtheme_11 header-container container">
@@ -135,65 +121,31 @@
                                                         <a href="/hakkimizda" id="mn_290"
                                                             class="menu_tur_11">Hakkımızda</a>
                                                     </li>
+                                                    <li>
+                                                        <a href="#tablolar" id="mn_289" class="menu_tur_11">Tablolar</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#galeri" id="mn_289" class="menu_tur_11">Galeri</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/iletisim" id="mn_3" class="menu_tur_11">Iletişim</a>
+                                                    </li>
                                                     <li class="dropdown">
                                                         <a href="/sahiplendirme/c/291" id="mn_291"
                                                             class="dropdown-toggle menu_tur_11"><span
-                                                                data-hover="Sahiplendirme">Sahiplendirme</span></a>
+                                                                data-hover="Sahiplendirme">Hesap</span></a>
                                                         <ul class="dropdown-menu">
-                                                            <li class="dropdown-submenu">
-                                                                <a href="/kediler/c/292" id="mn_292"
-                                                                    class="dropdown-toggle">Kediler</a>
-                                                                <ul class="dropdown-menu">
-
-                                                                    <li>
-                                                                        <a href="/kediler1" id="mn_293">Kediler1</a>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <a href="/kediler2" id="mn_294">Kediler2</a>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <a href="/kediler3" id="mn_295">Kediler3</a>
-                                                                    </li>
-                                                                </ul>
+                                                            <li>
+                                                                <a  id="mn_293">@Context.Session.GetString("kullanici_adi")</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/kayitol/cikisyap" id="mn_293">Çıkış Yap</a>
                                                             </li>
 
-                                                            <li class="dropdown-submenu">
-                                                                <a href="/kopekler/c/296" id="mn_296"
-                                                                    class="dropdown-toggle">Köpekler</a>
-                                                                <ul class="dropdown-menu">
-
-                                                                    <li>
-                                                                        <a href="/kopek1" id="mn_297">Köpek1</a>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <a href="/kopek2" id="mn_298">Köpek2</a>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <a href="/kopek3" id="mn_299">Köpek3</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
 
                                                         </ul>
-                                                    </li>
-
-
-                                                    <li>
-                                                        <a href="/calismalarimiz" id="mn_300"
-                                                            class="menu_tur_11">Çalışmalarımız</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="/galeri" id="mn_289" class="menu_tur_11">Galeri</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="/iletisim/m/3" id="mn_3"
-                                                            class="menu_tur_11">Iletişim</a>
                                                     </li>
                                                 </ul>
                                             </nav>

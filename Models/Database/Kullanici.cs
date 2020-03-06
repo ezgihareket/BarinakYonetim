@@ -13,5 +13,7 @@ namespace Dost.Patiler.Barinak.Models.Database
         public string sifre { get; set; }
 
         public string sehir { get; set; }
+
+        public bool admin { get; set;}=false;
     }
 }

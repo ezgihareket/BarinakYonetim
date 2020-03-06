@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Dost.Patiler.Barinak.csproj",
+  "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Dost.Patiler.Barinak.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,83 +2961,93 @@
   "RootNamespace": "Dost.Patiler.Barinak",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\HayvanCinsleri\\Olustur.cshtml",
-      "TargetPath": "Views\\HayvanCinsleri\\Olustur.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\HayvanYiyecekTipleri\\Olustur.cshtml",
-      "TargetPath": "Views\\HayvanYiyecekTipleri\\Olustur.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\KayitOl\\Index.cshtml",
-      "TargetPath": "Views\\KayitOl\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\Hayvanlar\\Olustur.cshtml",
-      "TargetPath": "Views\\Hayvanlar\\Olustur.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\HayvanHastaliklari\\Olustur.cshtml",
-      "TargetPath": "Views\\HayvanHastaliklari\\Olustur.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\HayvanCinsleri\\Index.cshtml",
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Hayvanlar\\Olustur.cshtml",
+      "TargetPath": "Views\\Hayvanlar\\Olustur.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Hakkimizda\\Index.cshtml",
+      "TargetPath": "Views\\Hakkimizda\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\HayvanCinsleri\\Index.cshtml",
       "TargetPath": "Views\\HayvanCinsleri\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\HayvanHastaliklari\\Index.cshtml",
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\HayvanYiyecekTipleri\\Olustur.cshtml",
+      "TargetPath": "Views\\HayvanYiyecekTipleri\\Olustur.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\HayvanHastaliklari\\Index.cshtml",
       "TargetPath": "Views\\HayvanHastaliklari\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\Hayvanlar\\Index.cshtml",
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Hayvanlar\\Index.cshtml",
       "TargetPath": "Views\\Hayvanlar\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\HayvanYiyecekTipleri\\Index.cshtml",
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\HayvanYiyecekTipleri\\Index.cshtml",
       "TargetPath": "Views\\HayvanYiyecekTipleri\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\HayvanHastaliklari\\Olustur.cshtml",
+      "TargetPath": "Views\\HayvanHastaliklari\\Olustur.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Iletisim\\Index.cshtml",
+      "TargetPath": "Views\\Iletisim\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\KayitOl\\Index.cshtml",
+      "TargetPath": "Views\\KayitOl\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Views\\HayvanCinsleri\\Olustur.cshtml",
+      "TargetPath": "Views\\HayvanCinsleri\\Olustur.cshtml",
       "FileKind": "mvc"
     }
   ],

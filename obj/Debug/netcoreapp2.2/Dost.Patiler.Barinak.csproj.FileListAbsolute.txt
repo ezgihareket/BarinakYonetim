@@ -74,3 +74,5 @@ c:\Users\ezgih\Documents\GitHub\BarinakYonetim\Dost.Patiler.Barinak\obj\Debug\ne
 c:\Users\ezgih\Documents\GitHub\BarinakYonetim\Dost.Patiler.Barinak\obj\Debug\netcoreapp2.2\Dost.Patiler.Barinak.dll
 c:\Users\ezgih\Documents\GitHub\BarinakYonetim\Dost.Patiler.Barinak\obj\Debug\netcoreapp2.2\Dost.Patiler.Barinak.pdb
 C:\Users\ezgih\Documents\GitHub\BarinakYonetim\Dost.Patiler.Barinak\obj\Debug\netcoreapp2.2\Dost.Patiler.Barinak.csproj.CopyComplete
+c:\Users\ezgih\Desktop\Dost.Patiler.Barinak\obj\Debug\netcoreapp2.2\Razor\Views\Iletisim\Index.g.cshtml.cs
+c:\Users\ezgih\Desktop\Dost.Patiler.Barinak\obj\Debug\netcoreapp2.2\Razor\Views\Hakkimizda\Index.g.cshtml.cs

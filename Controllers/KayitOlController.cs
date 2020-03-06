@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Dost.Patiler.Barinak.Models;
 using Dost.Patiler.Barinak.Models.Database;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
 
 namespace Dost.Patiler.Barinak.Controllers
 {
@@ -34,6 +36,24 @@ namespace Dost.Patiler.Barinak.Controllers
                 
                 throw;
             }
+        }
+        public async Task<IActionResult> GirisYap(string email,string sifre){
+            var kullanici = await _db.kullanici.FirstOrDefaultAsync(w=> w.email==email && w.sifre == sifre);
+            if(kullanici==null){
+                return Redirect("/");
+            }
+            HttpContext.Session.SetInt32("id",kullanici.kullanici_id);
+            HttpContext.Session.SetString("kullanici_adi",kullanici.ad);
+            if(kullanici.admin){
+            HttpContext.Session.SetString("admin","true");
+            }else{
+            HttpContext.Session.SetString("admin","false");
+            }
+            return Redirect("/");
+        }
+        public IActionResult cikisYap(){
+            HttpContext.Session.Clear();
+            return Redirect("/");
         }
     }
 }

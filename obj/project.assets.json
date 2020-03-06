@@ -12171,6 +12171,7 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.AspNetCore.Session >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.2.0"
     ]
@@ -12182,11 +12183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Dost.Patiler.Barinak.csproj",
+      "projectUniqueName": "C:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Dost.Patiler.Barinak.csproj",
       "projectName": "Dost.Patiler.Barinak",
-      "projectPath": "C:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\Dost.Patiler.Barinak.csproj",
+      "projectPath": "C:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\Dost.Patiler.Barinak.csproj",
       "packagesPath": "C:\\Users\\ezgih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezgih\\Documents\\GitHub\\BarinakYonetim\\Dost.Patiler.Barinak\\obj\\",
+      "outputPath": "C:\\Users\\ezgih\\Desktop\\Dost.Patiler.Barinak\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12222,6 +12223,10 @@
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.AspNetCore.Session": {
             "target": "Package",
             "version": "[2.2.0, )"
           },

@@ -26,6 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
+          "Microsoft.AspNetCore.Session": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0"
         },

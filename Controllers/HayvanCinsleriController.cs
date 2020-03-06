@@ -11,7 +11,7 @@ namespace Dost.Patiler.Barinak.Controllers
 {
     public class HayvanCinsleriController : Controller
     {
-        BarinakContext _db;
+        private readonly BarinakContext _db;
         public HayvanCinsleriController(BarinakContext db)
         {
             _db = db;
