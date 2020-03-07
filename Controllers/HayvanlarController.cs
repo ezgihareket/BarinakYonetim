@@ -51,7 +51,7 @@ namespace Dost.Patiler.Barinak.Controllers
                     _db.hayvanlar.Update(model);
                 }
                 _db.SaveChanges();//yapılan değişiklikleri kaydet
-                return Redirect("/hayvanlar/Index");// barinak adresine yönlendir.
+                return Redirect("/hayvanlar/Index");
             }
             catch (System.Exception ex)
             {

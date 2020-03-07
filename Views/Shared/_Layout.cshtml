@@ -10,11 +10,11 @@ int? id = Context.Session.GetInt32("id");
     <meta name="keywords" content="site," />
     <meta name="description" content="Site Açıklaması" />
     <meta property="og:image"
-        content="http://barinakplatinum.platinum.webdeneme.com/site_document/icon_img/favicon_b.jpg" />
+        content="http://barinakplatinum.platinum.webdeneme.com/site_document/icon_img/pwpMLyJV_400x400.jpg" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="shortcut icon" href="~/site_document/icon_img/favicon.jpg" />
+    <link rel="shortcut icon" href="~/site_document/icon_img/pwpMLyJV_400x400.jpg" />
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -132,6 +132,7 @@ int? id = Context.Session.GetInt32("id");
                                                     <li>
                                                         <a href="/iletisim" id="mn_3" class="menu_tur_11">Iletişim</a>
                                                     </li>
+                                                    @if(id.HasValue){
                                                     <li class="dropdown">
                                                         <a href="/sahiplendirme/c/291" id="mn_291"
                                                             class="dropdown-toggle menu_tur_11"><span
@@ -143,10 +144,9 @@ int? id = Context.Session.GetInt32("id");
                                                             <li>
                                                                 <a href="/kayitol/cikisyap" id="mn_293">Çıkış Yap</a>
                                                             </li>
-
-
                                                         </ul>
                                                     </li>
+                                                    }
                                                 </ul>
                                             </nav>
                                         </div>

@@ -32,14 +32,12 @@
 
                             <div class="col-md-12">
                                 <div class="col-md-2"></div>
-                                <div class="col-md-8 appear-animation wobble appear-animation-visible"
-                                    data-appear-animation="wobble">
+                                <div class="col-md-8">
                                 </div>
                             </div>
                             <div id="ctl00_cph1_ctl00_ctl00_Panel4">
                                 <div class="col-md-2"></div>
-                                <div class="col-md-8 appear-animation wobble appear-animation-visible"
-                                    data-appear-animation="wobble">
+                                <div class="col-md-8 ">
                                     <form method="post" action="/hayvanyiyecektipleri/kaydet" class="FormAlani">
                                     <input hidden name="yiyecek_id" value="@Model.yiyecek_id" />
                                         <div class="col-md-12  margin-bottom">
@@ -56,7 +54,7 @@
                                                 @if(Model.yiyecek_id!=0){
                                                     <a href="/hayvanyiyecektipleri/sil?id=@Model.yiyecek_id" class="btn btn-danger">Sil</a>
                                                 }
-                                                <input type="submit" value="Ekle" class="btn btn-success">
+                                                <input type="submit" value="Güncelle" class="btn btn-success">
                                             </div>
                                         </div>
                                     </form>

@@ -1,5 +1,8 @@
 ﻿@model List<Dost.Patiler.Barinak.Models.Database.hayvan_hastaliklari>
-
+@using Microsoft.AspNetCore.Http;
+@{
+int? id = Context.Session.GetInt32("id");
+}   
     <style>
         .table1 {
             color: black;
@@ -27,7 +30,9 @@
                         <h4>HAYVAN HASTALIKLARI</h4>
                     </p>
                 </b>
+                @if(id.HasValue){
             <a style="float:right" class="btn btn-success" href="/hayvanhastaliklari/olustur">Oluştur</a>
+                }
                 <table class="table table-hover">
 
                     <thead class="table1">
@@ -35,7 +40,9 @@
                             <th>hastalik_id</th>
                             <th>Hastalik Adi</th>
                             <th>Bulasici</th>
+                            @if(id.HasValue){
                             <th>İşlemler</th>
+                            }
 
                         </tr>
                     </thead>
@@ -46,7 +53,9 @@
                             <td>@item.hastalik_id</td>
                             <td>@item.hastalik_adi</td>
                             <td>@item.bulasici</td>
+                            @if(id.HasValue){
                             <th> <a href="/hayvanhastaliklari/duzenle?id=@item.hastalik_id"class="btn btn-info">Düzenle</a></th>
+                            }
                         </tr>
                         }
                     </tbody>
